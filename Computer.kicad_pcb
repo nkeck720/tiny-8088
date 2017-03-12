@@ -3,9 +3,9 @@
   (general
     (links 240)
     (no_connects 0)
-    (area 40.164999 12.7 200.9616 134.620001)
+    (area 40.164999 12.7 200.9616 134.720001)
     (thickness 1.6)
-    (drawings 9)
+    (drawings 13)
     (tracks 1612)
     (zones 0)
     (modules 35)
@@ -2444,6 +2444,10 @@
       (net 30 A0))
   )
 
+  (gr_circle (center 110.49 16.51) (end 111.76 16.51) (layer F.SilkS) (width 0.2))
+  (gr_circle (center 143.51 16.51) (end 142.24 16.51) (layer F.SilkS) (width 0.2))
+  (gr_circle (center 196.85 128.27) (end 198.12 128.27) (layer F.SilkS) (width 0.2))
+  (gr_circle (center 53.34 128.27) (end 54.61 128.27) (layer F.SilkS) (width 0.2))
   (gr_text "Cut on line" (at 45.72 106.68 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
