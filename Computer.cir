@@ -1,0 +1,19 @@
+* C:\Users\Noah Keck\Documents\8bit Comp\Computer.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 1/24/2017 9:06:13 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+CON1  Net-_CON1-Pad1_ GND GND +5v In		
+U2  Vcc GND Net-_CON1-Pad1_ LM2931AZ-5.0		
+C1  Vcc GND 10 uF		
+U3  GND ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? Net-_U1-Pad8_ GND Net-_U1-Pad10_ Net-_U1-Pad5_ ? ? ? ? ? Net-_U3-Pad28_ Net-_U3-Pad29_ ? ? Net-_U3-Pad32_ ? ? ? ? ? ? ? Vcc 8088		
+U1  ? ? ? ? Net-_U1-Pad5_ ? ? Net-_U1-Pad8_ GND Net-_U1-Pad10_ ? ? Net-_R1-Pad1_ ? ? ? ? Vcc 8284		
+U5  ? ? ? ? ? ? ? ? ? ? ? ? ? GND ? ? ? ? ? Net-_U3-Pad28_ ? Net-_U3-Pad32_ ? ? ? ? ? Vcc 28C256		
+U6  ? ? ? ? ? ? ? ? ? ? ? ? ? GND ? ? ? ? ? Net-_U3-Pad28_ ? Net-_U3-Pad32_ ? ? ? ? Net-_U4-Pad2_ Vcc RAM_32KO		
+U4  Net-_U3-Pad29_ Net-_U4-Pad2_ Net-_U4-Pad3_ Net-_U3-Pad32_ Net-_U4-Pad2_ Net-_U4-Pad3_ VSS VDD 4069		
+R1  Net-_R1-Pad1_ GND 10k		
+
+.end
