@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 6)
+    (start_pass_no 32)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.4)
+      (against_preferred_direction_trace_costs 2.2)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.7)
+      (against_preferred_direction_trace_costs 1.8)
     )
   )
   (rule
@@ -63,22 +63,27 @@
     )
   )
   (class "kicad_default"
-    GND "Net-(BUS1-Pad2)" Vcc "Net-(BUS1-Pad4)" "Net-(BUS1-Pad5)" "Net-(BUS1-Pad6)" "Net-(BUS1-Pad7)" "Net-(BUS1-Pad8)"
-    "Net-(BUS1-Pad9)" "Net-(BUS1-Pad11)" "Net-(BUS1-Pad12)" "Net-(BUS1-Pad13)" "Net-(BUS1-Pad14)" "Net-(BUS1-Pad15)" "Net-(BUS1-Pad16)" "Net-(BUS1-Pad17)"
-    "Net-(BUS1-Pad18)" "Net-(BUS1-Pad19)" "Net-(BUS1-Pad20)" "Net-(BUS1-Pad21)" "Net-(BUS1-Pad22)" "Net-(BUS1-Pad23)" "Net-(BUS1-Pad24)" "Net-(BUS1-Pad25)"
-    "Net-(BUS1-Pad26)" "Net-(BUS1-Pad27)" "Net-(BUS1-Pad28)" "Net-(BUS1-Pad30)" "Net-(BUS1-Pad32)" A0 A6 A4
-    A2 "Net-(BUS1-Pad41)" "Net-(BUS1-Pad42)" A19 A18 A17 A16 A15
-    A14 A13 A12 A11 A10 A8 "Net-(C2-Pad1)" "Net-(C3-Pad1)"
-    SXI "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)"
-    "Net-(J1-Pad9)" "Net-(J2-Pad4)" "Net-(J2-Pad1)" "Net-(R1-Pad1)" "Net-(R3-Pad1)" "Net-(R4-Pad2)" "Net-(R5-Pad2)" "Net-(R6-Pad1)"
-    "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(R9-Pad1)" "Net-(R10-Pad1)" "Net-(R11-Pad1)" SXO "Net-(R14-Pad2)" "Net-(R15-Pad2)"
-    "Net-(R16-Pad2)" "Net-(R17-Pad1)" "Net-(U1-Pad1)" "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad14)" "Net-(U1-Pad6)" "Net-(U1-Pad15)"
-    "Net-(U1-Pad7)" "Net-(U1-Pad16)" "Net-(U1-Pad8)" "Net-(U1-Pad17)" INTA "Net-(U3-Pad25)" "Net-(U3-Pad26)" "Net-(U3-Pad7)"
-    "Net-(U3-Pad27)" IO/M WR RD INT "Net-(U4-Pad2)" "Net-(U5-Pad20)" "Net-(U6-Pad20)"
-    "Net-(U10-Pad8)" "Net-(U7-Pad22)" "Net-(U7-Pad23)" "Net-(U7-Pad24)" "Net-(U7-Pad15)" IRQ0 "Net-(U7-Pad31)" "Net-(U13-Pad15)"
-    "Net-(U7-Pad34)" "Net-(U7-Pad18)" "Net-(U8-Pad9)" "Net-(U8-Pad10)" "Net-(U8-Pad11)" "Net-(U8-Pad12)" "Net-(U8-Pad13)" "Net-(U8-Pad14)"
-    "Net-(U10-Pad2)" "Net-(U10-Pad10)" "Net-(U10-Pad4)" "Net-(U10-Pad12)" "Net-(U10-Pad6)" "Net-(U12-Pad1)" "Net-(U12-Pad15)" "Net-(U12-Pad19)"
-    "Net-(U12-Pad12)" "Net-(U12-Pad13)" "Net-(U13-Pad9)" "Net-(U13-Pad10)" "Net-(U13-Pad11)" "Net-(U13-Pad12)" "Net-(U13-Pad13)" "Net-(U13-Pad7)"
+    GND "Net-(BUS1-Pad2)" Vcc "Net-(BUS1-Pad4)" "Net-(BUS1-Pad5)" "Net-(BUS1-Pad7)" "Net-(BUS1-Pad9)" "Net-(BUS1-Pad11)"
+    "Net-(BUS1-Pad12)" "Net-(BUS1-Pad13)" "Net-(BUS1-Pad14)" "Net-(BUS1-Pad20)" "Net-(BUS1-Pad21)" "Net-(BUS1-Pad22)" "Net-(BUS1-Pad23)" "Net-(BUS1-Pad24)"
+    "Net-(BUS1-Pad25)" "Net-(BUS1-Pad30)" "Net-(BUS1-Pad32)" A0 A6 A4 A2 "Net-(BUS1-Pad41)"
+    A19 A18 A17 A16 A15 A14 A13 A12
+    A11 A10 A8 "Net-(C2-Pad1)" "Net-(C3-Pad1)" SXI "Net-(J1-Pad1)" "Net-(J1-Pad2)"
+    "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)" "Net-(J1-Pad9)" "Net-(J2-Pad4)" "Net-(J2-Pad1)"
+    "Net-(R1-Pad1)" "Net-(R3-Pad1)" "Net-(R4-Pad2)" "Net-(R5-Pad2)" "Net-(R6-Pad1)" "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(R9-Pad1)"
+    "Net-(R10-Pad1)" "Net-(R11-Pad1)" SXO "Net-(R14-Pad2)" "Net-(R15-Pad2)" "Net-(R16-Pad2)" "Net-(R17-Pad1)" "Net-(U1-Pad1)"
+    "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad14)" "Net-(U1-Pad6)" "Net-(U1-Pad15)" "Net-(U1-Pad7)" "Net-(U1-Pad16)" "Net-(U1-Pad8)"
+    "Net-(U1-Pad17)" INTA "Net-(U3-Pad25)" "Net-(U3-Pad26)" "Net-(U3-Pad7)" "Net-(U3-Pad27)" IO/M WR
+    RD INT "Net-(U4-Pad2)" "Net-(U5-Pad20)" "Net-(U6-Pad20)" "Net-(U10-Pad8)" "Net-(U7-Pad22)" "Net-(U7-Pad23)"
+    "Net-(U7-Pad24)" "Net-(U7-Pad15)" IRQ0 "Net-(U7-Pad31)" "Net-(U13-Pad15)" "Net-(U7-Pad34)" "Net-(U7-Pad18)" "Net-(U8-Pad9)"
+    "Net-(U8-Pad10)" "Net-(U8-Pad11)" "Net-(U8-Pad12)" "Net-(U8-Pad13)" "Net-(U8-Pad14)" "Net-(U10-Pad2)" "Net-(U10-Pad10)" "Net-(U10-Pad4)"
+    "Net-(U10-Pad12)" "Net-(U10-Pad6)" "Net-(U12-Pad1)" "Net-(U12-Pad15)" "Net-(U12-Pad19)" "Net-(U12-Pad12)" "Net-(U12-Pad13)" "Net-(U13-Pad9)"
+    "Net-(U13-Pad10)" "Net-(U13-Pad11)" "Net-(U13-Pad12)" "Net-(U13-Pad13)" "Net-(U13-Pad7)" "Net-(C6-Pad1)" "Net-(C6-Pad2)" "Net-(C7-Pad1)"
+    "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C8-Pad2)" "Net-(C9-Pad1)" "Net-(C9-Pad2)" "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C11-Pad1)"
+    "Net-(C11-Pad2)" "Net-(C12-Pad1)" "Net-(C12-Pad2)" "Net-(C13-Pad1)" "Net-(C13-Pad2)" "Net-(C14-Pad1)" "Net-(C14-Pad2)" "Net-(U16-Pad12)"
+    "Net-(U16-Pad11)" "Net-(U17-Pad11)" "Net-(U16-Pad10)" "Net-(U17-Pad12)" "Net-(U16-Pad9)" "Net-(U17-Pad9)" "Net-(U18-Pad12)" "Net-(U17-Pad10)"
+    "Net-(U17-Pad7)" "Net-(U18-Pad9)" "Net-(U18-Pad10)" "Net-(U18-Pad11)" "Net-(U18-Pad14)" "Net-(U18-Pad7)" "Net-(U18-Pad8)" "Net-(BUS1-Pad6)"
+    "Net-(BUS1-Pad8)" "Net-(BUS1-Pad15)" "Net-(BUS1-Pad16)" "Net-(BUS1-Pad17)" "Net-(BUS1-Pad18)" "Net-(BUS1-Pad19)" "Net-(BUS1-Pad26)" "Net-(BUS1-Pad27)"
+    "Net-(BUS1-Pad28)" "Net-(BUS1-Pad42)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
